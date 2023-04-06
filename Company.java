@@ -30,9 +30,6 @@ public class Company {
         this.companyName = companyName;
         this.departmentList = departmentList;
     }
-    public Company (){
-
-    }
 
     public Company(List<Department> departmentList) {
         this.departmentList = departmentList;
